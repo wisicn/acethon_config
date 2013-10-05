@@ -10,16 +10,20 @@ Mac OS X:
 * .bashrc
 * .bash_profile
 * .profile
+
 GNU/Linux Debian:
 ------------
 * .bashrc
+
 VIM:
 ------------
 * .vimrc
 * indent files for python
+
 nginx
 ------------
 * sample vhost config
+
 ssh
 ------------
 * ssh-copy-id.sh
