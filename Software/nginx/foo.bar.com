@@ -1,5 +1,6 @@
 server {
 	listen   80; ## listen for ipv4; this line is default and implied
+	listen [::]:80 ipv6only=on; ## for ipv6 only.you can use ipv4 and ipv6 at the same time
 	root /srv/www/foo.bar.com/htdocs;
 	index index.php index.html index.htm;
 	server_name foo.bar.com www.foo.bar.com;
