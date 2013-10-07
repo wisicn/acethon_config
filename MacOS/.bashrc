@@ -8,3 +8,5 @@ alias grep='grep --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+#md5sum alias
+alias md5sum='md5'
