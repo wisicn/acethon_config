@@ -1,3 +1,4 @@
+#http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools/
 #RECEIPT_FILE=/var/db/receipts/com.apple.pkg.DeveloperToolsCLI.bom
 #RECEIPT_PLIST=/var/db/receipts/com.apple.pkg.DeveloperToolsCLI.plist
  
