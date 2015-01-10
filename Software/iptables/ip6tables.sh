@@ -11,6 +11,7 @@ ip6tables -A INPUT -p tcp -s ::/0 -d ::/0 --destination-port 80 --syn -j ACCEPT
 ip6tables -A INPUT -p tcp -s ::/0 -d ::/0 --destination-port 443 --syn -j ACCEPT
 ip6tables -A INPUT -p tcp -s ::/0 -d ::/0 --destination-port 10822 --syn -j ACCEPT
 ip6tables -A INPUT -p tcp -s ::/0 -d ::/0 --destination-port 5298 --syn -j ACCEPT
+ip6tables -A INPUT -p udp --dport 5298 -j ACCEPT
 ip6tables -A INPUT -p udp --sport 123 -j ACCEPT
 ip6tables -A INPUT -p icmpv6 -j ACCEPT
 ip6tables -A INPUT -s ::/0 -d ::/0 -p udp -j DROP

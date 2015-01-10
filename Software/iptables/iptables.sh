@@ -12,6 +12,7 @@ iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 80 --syn -j ACCEPT
 iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 443 --syn -j ACCEPT
 iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 10822 --syn -j ACCEPT
 iptables -A INPUT -p tcp -s 0/0 -d 0/0 --destination-port 5298 --syn -j ACCEPT
+iptables -A INPUT -p udp --dport 5298 -j ACCEPT
 iptables -A INPUT -p udp --sport 123 -j ACCEPT
 iptables -A INPUT -s 0/0 -d 0/0 -p udp -j DROP
 iptables -A INPUT -s 0/0 -d 0/0 -p tcp --syn -j DROP
