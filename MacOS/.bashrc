@@ -8,5 +8,7 @@ alias grep='grep --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-#md5sum alias
-alias md5sum='md5'
+#md5sum  and sha1sum alias
+#alias md5sum='md5'
+alias md5sum='openssl md5'
+alias sha1sum='openssl sha1'
