@@ -33,3 +33,7 @@ iptables
 * iptables for ipv4 firewall
 * ip6tables for ipv6 firewall
 * automatic restore iptables and ip6tables scripts in debian
+
+Windows
+------------
+* scripts to update the dns to freedns.afriaid.org
