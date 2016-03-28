@@ -1,6 +1,12 @@
 This configure come from https://github.com/mrcotter/mrcotter_dotfiles
 and I did some modificaiton.
 
+Before using these configure files, first install mpv by
+brew install mpv --with-bundle
+brew linkapps mpv
+
+then put the mpv directory under ~/.config/mpv
+
 more details refer to
 http://bbs.feng.com/read-htm-tid-9633783.html
 https://www.v2ex.com/t/157485
