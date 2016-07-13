@@ -65,6 +65,9 @@ export HOMEBREW_GITHUB_API_TOKEN=yourstoken
 
 ZSH_THEME="zhxue_robbyrussell"
 
+alias md5sum='openssl md5'
+alias sha1sum='openssl sha1'
+
 # Not finished, some important things to do:
 #
 # 1. Remember to Change the ZSH environment variable in the beginging of this file to your absoluate path, not the $HOME
