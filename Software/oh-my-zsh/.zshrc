@@ -56,6 +56,24 @@ plugins=(git)
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# Customized by wisicn START
+export PATH=/usr/local/bin:/usr/local/sbin:~/ws/scripts:/usr/libexec:$PATH
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export HOMEBREW_GITHUB_API_TOKEN=yourstoken
+
+ZSH_THEME="zhxue_robbyrussell"
+
+# Not finished, some important things to do:
+#
+# 1. Remember to Change the ZSH environment variable in the beginging of this file to your absoluate path, not the $HOME
+# 2. Remember to change the plugins in the above. This is my value
+# plugins=(git brew history docker)
+# 3. copy the ./custom/* to $ZSH_CUSTOM. the default $ZSH_CUSTOM is $ZSH/custom
+# cp -r ./custom/* $ZSH_CUSTOM/
+# Customized by wisicn END
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
