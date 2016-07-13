@@ -72,6 +72,7 @@ ZSH_THEME="zhxue_robbyrussell"
 # plugins=(git brew history docker)
 # 3. copy the ./custom/* to $ZSH_CUSTOM. the default $ZSH_CUSTOM is $ZSH/custom
 # cp -r ./custom/* $ZSH_CUSTOM/
+# 4. change your HOMEBREW_GITHUB_API_TOKEN
 # Customized by wisicn END
 
 source $ZSH/oh-my-zsh.sh
