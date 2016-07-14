@@ -72,7 +72,7 @@ alias sha1sum='openssl sha1'
 #
 # 1. Remember to Change the ZSH environment variable in the beginging of this file to your absoluate path, not the $HOME
 # 2. Remember to change the plugins in the above. This is my value
-# plugins=(git brew history docker extract z)
+# plugins=(git brew history docker extract z sudo)
 # 3. copy the ./custom/* to $ZSH_CUSTOM. the default $ZSH_CUSTOM is $ZSH/custom
 # cp -r ./custom/* $ZSH_CUSTOM/
 # 4. change your HOMEBREW_GITHUB_API_TOKEN
