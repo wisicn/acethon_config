@@ -1,0 +1,12 @@
+To block icmp ping without any messages use DROP as Jump to target.
+
+iptables -A INPUT -p icmp --icmp-type echo-request -j DROP
+iptables -A OUTPUT -p icmp --icmp-type echo-reply -j DROP
+
+Allow Ping from Outside to Inside
+
+iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT
+iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT
+
+
+add to your iptables.sh to enable or disable ping
