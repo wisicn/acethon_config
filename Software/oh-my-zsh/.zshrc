@@ -67,6 +67,7 @@ ZSH_THEME="zhxue_robbyrussell"
 
 alias md5sum='openssl md5'
 alias sha1sum='openssl sha1'
+alias sha256sum='openssl dgst -sha256'
 
 # Not finished, some important things to do:
 #
