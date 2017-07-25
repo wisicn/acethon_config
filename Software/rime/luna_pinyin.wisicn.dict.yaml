@@ -1,0 +1,26 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Luna Pinyin Extended Dictionary(Wisicn Personal) - 明月拼音擴充詞庫（wisicn）
+#
+#  wisicn AT github.com
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: luna_pinyin.wisicn
+version: "2017.7.18"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+SureRoute	sureroute	100
+Akamai	akam	100
+Akamai	akamai	100
+Shanghai	shanghai	100

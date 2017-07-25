@@ -23,6 +23,7 @@ use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
   - luna_pinyin.sogou
+  - luna_pinyin.wisicn
 # - luna_pinyin.hanyu
 # - luna_pinyin.poetry
   - luna_pinyin.cn_en
