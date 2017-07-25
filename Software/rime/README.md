@@ -28,7 +28,8 @@ installation_id: 'your-mac01'
    * add the luna_pinyin.extended.dict.yaml from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime), this is the configure file to control which 3rd dict is enabled or not.
    * get the third party dict yaml file from here or [Rime 擴充詞庫](https://github.com/rime-aca/dictionaries)
    * you can get more dict yaml file by this [深蓝词库转换](https://github.com/studyzy/imewlconverter)
-   * better get the luna_pinyin.cn_en.dict.yaml from [Rime 擴充詞庫](https://github.com/rime-aca/dictionaries) , and then add all personal dict here.
+   * get the luna_pinyin.cn_en.dict.yaml from [Rime 擴充詞庫](https://github.com/rime-aca/dictionaries) 
+   * add all personal dict here to luna_pinyin.wisicn.dict.yaml
 
 
 #### 7.refer
