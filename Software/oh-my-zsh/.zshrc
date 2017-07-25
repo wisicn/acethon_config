@@ -57,7 +57,7 @@ plugins=(git)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Customized by wisicn START
-export PATH=/usr/local/bin:/usr/local/sbin:~/ws/scripts:/usr/libexec:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/ws/scripts:/usr/libexec:$PATH
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
