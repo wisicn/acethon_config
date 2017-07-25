@@ -2,9 +2,9 @@
 
 #### 1.brew cask install squirrel
 
-#### 2.copy the file default.custom.yaml under ~/Library/Rime from github
+#### 2.copy the file default.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
 
-#### 3.copy the squirrel.custom.yaml under ~/Library/Rime from github
+#### 3.copy the squirrel.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
 
 #### 4.卸载办法
 
@@ -18,8 +18,8 @@
 in installation.yaml
 
  ````
-sync_dir: '/Users/fred/Dropbox/RimeSync'
-installation_id: 'zxue-mac01'
+sync_dir: '/you/path/to/Dropbox/RimeSync'
+installation_id: 'your-mac01'
  ````
 
 #### 6.refer
