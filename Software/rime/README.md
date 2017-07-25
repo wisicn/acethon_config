@@ -14,6 +14,7 @@
   sudo rm -rf "/Library/Input Methods/Squirrel.app"
   rm -rf ~/Library/Rime
  ````
+
 #### 5.同步用戶資料
 in installation.yaml
 
@@ -22,7 +23,9 @@ sync_dir: '/you/path/to/Dropbox/RimeSync'
 installation_id: 'your-mac01'
  ````
 
-#### 6.refer
+#### 6. TODO: 自定义词库
+
+#### 7.refer
 
 * http://www.dreamxu.com/install-config-squirrel/
 * http://www.jianshu.com/p/cffc0ea094a7
