@@ -6,22 +6,32 @@
 
 #### 3.copy the squirrel.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
 
-#### 4.卸载办法
+#### 4.Install the input schema manager [plum](https://github.com/rime/plum) and the input package
 
- ````
+ ```
+ cd ~/Library/Rime
+ curl -fsSL https://git.io/rime-install | bash
+ cd plum
+ bash rime-install pinyin-simp
+ bash rime-install wubi
+ ```
+
+#### 5.卸载办法
+
+ ```
   say goodbye Squirrel && killall Squirrel
   系统偏好设置 - 键盘 - 输入源 - 鼠须管 ✗
   sudo rm -rf "/Library/Input Methods/Squirrel.app"
   rm -rf ~/Library/Rime
- ````
+ ```
 
 #### 5.同步用戶資料
 in installation.yaml
 
- ````
+ ```
 sync_dir: '/you/path/to/Dropbox/RimeSync'
 installation_id: 'your-mac01'
- ````
+ ```
 
 #### 6. 自定义词库, 必须选择明月拼音输入法
    * add the luna_pinyin.custom.yaml from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
