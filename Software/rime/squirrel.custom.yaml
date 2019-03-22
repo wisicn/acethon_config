@@ -1,5 +1,6 @@
 patch:
    style/color_scheme: google                 # 选择配色方案
+   #style/color_scheme: mojave_dark             # 选择配色方案
    style/horizontal: true                   # 候选窗横向显示
-   app_options/com.microsoft.VSCode:
-       ascii_mode: false
+   app_options/com.microsoft.VSCode/ascii_mode: false
+   app_options/com.runningwithcrayons.Alfred-3/ascii_mode: true
