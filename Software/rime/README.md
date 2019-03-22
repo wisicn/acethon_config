@@ -14,7 +14,9 @@
  cd plum
  bash rime-install pinyin-simp
  bash rime-install wubi
- ```
+ bash rime-install emoji
+ bash rime-install emoji:customize:schema=luna_pinyin 
+```
 
 #### 5.卸载办法
 
