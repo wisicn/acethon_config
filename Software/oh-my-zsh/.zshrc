@@ -63,7 +63,8 @@ export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 export HOMEBREW_GITHUB_API_TOKEN=yourstoken
 
-ZSH_THEME="zhxue_robbyrussell"
+#ZSH_THEME="zhxue_robbyrussell"
+ZSH_THEME="agnoster"
 
 alias md5sum='openssl md5'
 alias sha1sum='openssl sha1'
@@ -74,8 +75,16 @@ alias sha256sum='openssl dgst -sha256'
 # 1. Remember to Change the ZSH environment variable in the beginging of this file to your absoluate path, not the $HOME
 # 2. Remember to change the plugins in the above. This is my value
 # plugins=(git brew history docker extract z sudo)
-# 3. copy the ./custom/* to $ZSH_CUSTOM. the default $ZSH_CUSTOM is $ZSH/custom
+# 3. Change the default Theme
+# if you would like to use the zhxue_robbyrussell theme, follow this 
+# copy the ./custom/* to $ZSH_CUSTOM. the default $ZSH_CUSTOM is $ZSH/custom
 # cp -r ./custom/* $ZSH_CUSTOM/
+# 
+# if you would like to use the agnoster theme, follow this
+# download the font in this URL https://github.com/powerline/fonts/tree/master/UbuntuMono
+# Go to fonts-master/UbuntuMono/ and install each of the four TTFs: simply double-click and let Font Book install them for you.
+# Open iTerm2 Terminal, then navigate to Terminal Preferences > Profiles > Font and click the Change button.
+#
 # 4. change your HOMEBREW_GITHUB_API_TOKEN
 # Customized by wisicn END
 
