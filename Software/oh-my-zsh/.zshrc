@@ -85,7 +85,7 @@ alias sha256sum='openssl dgst -sha256'
 # get the zip or clone the git repositry, then install each of the four TTFs: simply double-click and let Font Book install them for you.
 # Open iTerm2 Terminal, then navigate to Terminal Preferences > Profiles > Font and click the Change button.
 # select Menlo-for-Powerline, 14 size
-# And also the best Colors Presets of the default profile should be "SolarizedDark" 
+# And also the best Colors Presets of the default profile should be "SolarizedDark - Patched" 
 #
 # 4. change your HOMEBREW_GITHUB_API_TOKEN
 # Customized by wisicn END
