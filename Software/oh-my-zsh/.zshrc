@@ -86,6 +86,7 @@ alias sha256sum='openssl dgst -sha256'
 # Open iTerm2 Terminal, then navigate to Terminal Preferences > Profiles > Font and click the Change button.
 # select Menlo-for-Powerline, 14 size
 # And also the best Colors Presets of the default profile should be "SolarizedDark - Patched", you can get it via https://iterm2colorschemes.com/
+# Or you can use the color preset Dracula from https://draculatheme.com/iterm/
 #
 # 4. change your HOMEBREW_GITHUB_API_TOKEN
 # Customized by wisicn END
