@@ -1,10 +1,11 @@
-:set incsearch
-:set hlsearch
-:set ignorecase smartcase
-:syntax enable
-:filetype plugin on
-:set background=dark
-:colorscheme torte
+set incsearch
+set hlsearch
+set ignorecase smartcase
+syntax enable
+filetype plugin on
+set background=dark
+":colorscheme torte
+colorscheme default
 
 set ruler               " show the cursor position all the time
 
