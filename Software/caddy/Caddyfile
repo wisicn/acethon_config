@@ -1,0 +1,7 @@
+#simple Caddyfile for local http server
+#caddy -conf /usr/local/etc/Caddyfile
+0.0.0.0:8080
+tls off
+browse
+log stdout
+errors stdout
