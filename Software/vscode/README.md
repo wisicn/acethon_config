@@ -3,5 +3,7 @@
 ```
 {
 "terminal.integrated.fontFamily": "Menlo for Powerline",
+"terminal.integrated.FontSize": "14",
 }
 ```
+3. set the default font size to Editor.FontSize 16
