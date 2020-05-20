@@ -1,4 +1,4 @@
-1. add the extension: Open iTerm2, Python
+1. add the extension: Open iTerm2, Python,Dracula Official
 2. Change the terminal font to Menlo for Powerline: Download proper patched font - https://github.com/abertsch/Menlo-for-Powerline,In your User Settings (Code | Preferences | Settings) add this:
 ```
 {
