@@ -1,0 +1,4 @@
+# Example on how to keep live with remote SSH server
+Host *
+        ServerAliveInterval 30
+        ServerAliveCountMax 100
