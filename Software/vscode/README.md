@@ -4,6 +4,9 @@
 {
 "terminal.integrated.fontFamily": "Menlo for Powerline",
 "terminal.integrated.FontSize": "14",
+"terminal.external.osxExec": "iTerm.app",
+"terminal.integrated.shell.osx": "/bin/zsh",
+"terminal.integrated.fontFamily": "Menlo for Powerline"
 }
 ```
 3. set the default font size to Editor.FontSize 16
