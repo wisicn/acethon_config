@@ -5,6 +5,7 @@
 # Credit to: https://github.com/blackmatrix7/ios_rule_script
 # Akamai partial from https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Akamai/Akamai.list
 # Cloudflare partial from https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Cloudflare/Cloudflare.list
+DOMAIN,ptest-3.ipcheck.ing
 DOMAIN-SUFFIX,akamai.com
 DOMAIN-SUFFIX,akamai.net
 DOMAIN-SUFFIX,akamaiedge.net

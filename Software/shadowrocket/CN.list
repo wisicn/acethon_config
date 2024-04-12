@@ -10,6 +10,7 @@
 # iQiyi from https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/iQIYI/iQIYI.list
 # Youku from https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Youku/Youku.list
 # To be added from https://github.com/uku/Unblock-Youku/blob/master/configs/urls.mjs
+DOMAIN,ptest-2.ipcheck.ing
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,animetamashi.cn
@@ -147,6 +148,4 @@ DOMAIN-SUFFIX,youqoo.net
 DOMAIN-SUFFIX,v.api.hunantv.com
 DOMAIN-SUFFIX,mobile.api.hunantv.com
 DOMAIN-SUFFIX,api.mgtv.com
-
-
 
