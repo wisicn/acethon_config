@@ -1,6 +1,6 @@
 ## README 鼠鬚管輸入法
 
-#### 1.brew cask install squirrel
+#### 1.Install with the official binary PKG.
 
 #### 2.copy the file default.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
 
