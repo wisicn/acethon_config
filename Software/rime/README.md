@@ -10,10 +10,9 @@
 
  ```
  cd ~/Library/Rime
- curl -fsSL https://git.io/rime-install | bash
+ curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash
  cd plum
- bash rime-install pinyin-simp
- bash rime-install wubi
+ bash rime-install luna-pinyin
 ```
 
 #### 5.卸载办法
