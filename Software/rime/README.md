@@ -41,7 +41,10 @@ installation_id: 'your-mac01'
    * add all personal dict here to luna_pinyin.wisicn.dict.yaml
 
 
-#### 7.refer
+#### 7.Post Installation
+   * 选中明月拼音输入法，按快捷键 control+“~” 切换为简体中文。
+
+#### 8.refer
 
 * http://www.dreamxu.com/install-config-squirrel/
 * http://www.jianshu.com/p/cffc0ea094a7
