@@ -4,7 +4,7 @@
 
 #### 2.copy the file default.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
 
-#### 3.copy the squirrel.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime)
+#### 3.copy the squirrel.custom.yaml under ~/Library/Rime from [github](https://github.com/wisicn/acethon_config/tree/master/Software/rime). For windows input, copy the weasel.custom.yaml instead.
 
 #### 4.Install the input schema manager [plum](https://github.com/rime/plum) and the input package
 
