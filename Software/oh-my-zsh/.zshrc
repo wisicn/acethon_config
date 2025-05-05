@@ -70,6 +70,7 @@ ZSH_THEME="agnoster"
 alias md5sum='openssl md5'
 alias sha1sum='openssl sha1'
 alias sha256sum='openssl dgst -sha256'
+alias docker='podman'
 
 # Not finished, some important things to do:
 #
