@@ -1,0 +1,6 @@
+[credential]
+	helper = cache --timeout 21600
+	helper = oauth -device
+[user]
+	email = youeid@youremail.com
+	name = Foo Bar
