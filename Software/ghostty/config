@@ -1,0 +1,7 @@
+theme = Seti
+font-size = 15
+shell-integration-features = sudo,no-title
+copy-on-select = clipboard
+app-notifications = no-clipboard-copy
+#workaround for the ssh and sudo issue
+term = xterm-256color
