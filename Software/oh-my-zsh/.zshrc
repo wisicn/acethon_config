@@ -50,7 +50,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(git brew history docker extract z sudo zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git brew history extract z sudo zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
@@ -71,6 +71,7 @@ alias md5sum='openssl md5'
 alias sha1sum='openssl sha1'
 alias sha256sum='openssl dgst -sha256'
 alias docker='podman'
+alias gitpushall='git push origin master:master;git push gitlab master:master'
 
 # Not finished, some important things to do:
 #
