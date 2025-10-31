@@ -72,7 +72,8 @@ alias md5sum='openssl md5'
 alias sha1sum='openssl sha1'
 alias sha256sum='openssl dgst -sha256'
 alias docker='podman'
-alias gitpushall='git push origin master:master;git push gitlab master:master'
+#alias gitpushall='git push origin master:master;git push gitlab master:master'
+alias gitpushall='git push origin master:master'
 alias brewup='brew update; brew upgrade; brew cleanup'
 
 # Not finished, some important things to do:
