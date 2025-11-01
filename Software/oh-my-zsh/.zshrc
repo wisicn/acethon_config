@@ -59,7 +59,7 @@ plugins=(git brew history extract z sudo zsh-autosuggestions zsh-syntax-highligh
 
 # Customized by wisicn START
 #export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/ws/scripts:/usr/libexec:$PATH
-export PATH=$PATH:~/bin:~/ws/scripts
+export PATH=$PATH:~/bin:~/ws/scripts:~/.local/bin
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
@@ -75,6 +75,8 @@ alias docker='podman'
 #alias gitpushall='git push origin master:master;git push gitlab master:master'
 alias gitpushall='git push origin master:master'
 alias brewup='brew update; brew upgrade; brew cleanup'
+alias python='/opt/homebrew/bin/python3'
+alias pip='/opt/homebrew/bin/pip3'
 
 # Not finished, some important things to do:
 #
